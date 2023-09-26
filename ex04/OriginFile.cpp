@@ -1,5 +1,13 @@
 #include "OriginFile.hpp"
 
+OriginFile::OriginFile()
+{
+}
+
+OriginFile::~OriginFile()
+{
+}
+
 void	OriginFile::SetOriginFileName(char *name)
 {
 	origin_file_name = name;

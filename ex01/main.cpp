@@ -2,11 +2,11 @@
 
 int main(void)
 {
-	Zombie*	zombies = zombieHorde(20, "test");
+	Zombie	*zombies = zombieHorde(5, "zombie");
 	
-	for (int i = 0; i < 20; i++)
+	for (int i = 0; i < 5; i++)
 	{
-		std::cout << i << " ";
+		std::cout << i << ": ";
 		zombies[i].announce();
 	}
 	delete[] zombies;

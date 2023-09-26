@@ -1,5 +1,13 @@
 #include "ResultFile.hpp"
 
+ResultFile::ResultFile()
+{
+}
+
+ResultFile::~ResultFile()
+{
+}
+
 void	ResultFile::SetResultFileName(char *name)
 {
 	std::string	name_temp;

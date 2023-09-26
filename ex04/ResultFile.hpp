@@ -1,5 +1,8 @@
-#include <iostream>
-#include <fstream>
+#ifndef RESULTFILE_HPP
+# define RESULTFILE_HPP
+
+# include <iostream>
+# include <fstream>
 
 class ResultFile
 {
@@ -9,6 +12,8 @@ class ResultFile
 		std::string		find_str;
 		std::string		change_str;
 	public:
+		ResultFile();
+		~ResultFile();
 		void	SetResultFileName(char *name);
 		void	SetResultFile();
 		void	SetFindString(char *find);
@@ -16,3 +21,5 @@ class ResultFile
 		void	WriteFile(std::string str_origin, int eof);
 		void	CloseResultFile();
 };
+
+#endif

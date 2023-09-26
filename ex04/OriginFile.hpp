@@ -1,5 +1,8 @@
-#include <iostream>
-#include <fstream>
+#ifndef ORIGINFILE_HPP
+# define ORIGINFILE_HPP
+
+# include <iostream>
+# include <fstream>
 
 class OriginFile
 {
@@ -7,9 +10,13 @@ class OriginFile
 		std::ifstream	origin_file;
 		std::string		origin_file_name;
 	public:
+		OriginFile();
+		~OriginFile();
 		void	SetOriginFileName(char *name);
 		void	SetOriginFile();
 		int		CheckEOF();
 		void	GetStringInFile(std::string &str);
 		void	CloseOriginFile();
 };
+
+#endif
