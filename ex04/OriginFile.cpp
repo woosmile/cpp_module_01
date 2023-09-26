@@ -15,7 +15,7 @@ void	OriginFile::SetOriginFileName(char *name)
 
 void	OriginFile::SetOriginFile()
 {
-	origin_file.open(origin_file_name);
+	origin_file.open(origin_file_name.c_str());
 	if (!origin_file.is_open())
 	{
 		std::cout << "error: failed open file." << std::endl;

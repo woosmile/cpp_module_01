@@ -19,7 +19,7 @@ void	ResultFile::SetResultFileName(char *name)
 
 void	ResultFile::SetResultFile()
 {
-	result_file.open(result_file_name);
+	result_file.open(result_file_name.c_str());
 	if (!result_file.is_open())
 	{
 		std::cout << "error: failed create file." << std::endl;

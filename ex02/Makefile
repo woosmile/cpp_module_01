@@ -1,4 +1,4 @@
-NAME = ref
+NAME = reference_practice
 
 CPPFLAGS = -Werror -Wall -Wextra -std=c++98
 

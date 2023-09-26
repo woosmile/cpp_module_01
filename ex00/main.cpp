@@ -8,11 +8,7 @@ int main(void)
 	delete heap_zombie;
 
 	//using randomChump
-	randomChump("randomChump1");
-	randomChump("randomChump2");
-	randomChump("randomChump3");
-	randomChump("randomChump4");
-	randomChump("randomChump5");
+	randomChump("stack_zombie");
 
 	return (0);
 }
