@@ -2,7 +2,7 @@
 # define ZOMBIE_HPP
 
 # include <iostream>
-# include <stdlib.h>
+# include <cstdlib>
 
 class Zombie
 {

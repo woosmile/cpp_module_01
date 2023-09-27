@@ -3,7 +3,7 @@
 
 # include <iostream>
 # include <fstream>
-# include <stdlib.h>
+# include <cstdlib>
 
 class OriginFile
 {
