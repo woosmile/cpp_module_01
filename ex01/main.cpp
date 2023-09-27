@@ -2,9 +2,10 @@
 
 int main(void)
 {
-	Zombie	*zombies = zombieHorde(5, "zombie");
+	int	n = 0;
+	Zombie	*zombies = zombieHorde(n, "zombie");
 	
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < n; i++)
 	{
 		std::cout << "[" << i << "] ";
 		zombies[i].announce();
