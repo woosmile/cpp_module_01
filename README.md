@@ -22,7 +22,7 @@
 
 ### ex03
 - Weapon 객체의 레퍼런스를 전달받아서 Human 클래스의 멤버 변수(포인터) 초기화
-- HumanA는 생성자 매개변수로 Weapon 객체의 레퍼런스를 전달받지만 HumanB는 그렇지 않으므로 Weapon을 불러올 때 NULL에 대한 예외처리가 있음
+- HumanA는 생성자의 매개변수로 Weapon 객체의 레퍼런스를 전달받지만 HumanB는 그렇지 않으므로 Weapon을 불러올 때 NULL에 대한 예외처리가 있음
 
 ### ex04
 - String 객체의 replace 메소드를 구현함
